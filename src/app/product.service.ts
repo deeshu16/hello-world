@@ -15,7 +15,7 @@ export interface Product {
 
 @Injectable({ providedIn: 'root' })
 export class ProductService {
-  private readonly base = 'http://localhost:8080/api/products';
+  private readonly base = 'https://productdashboard-1782393006231.azurewebsites.net/api/products';
 
   constructor(private http: HttpClient) {}
 
